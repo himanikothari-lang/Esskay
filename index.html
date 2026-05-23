@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esskay General Trading LLC | Shelf-Stable Food Supplier Dubai, UAE</title>
+  <meta name="description" content="Esskay supplies institutional-grade shelf-stable food products — coconut milk, plant proteins, and cooking bases — to hotels, distributors, and food manufacturers across the UAE.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Esskay General Trading LLC | B2B Food Supplier UAE">
+  <meta property="og:description" content="Reliable shelf-stable food supply for UAE businesses. Monthly contracts, flexible credit terms, institutional specs.">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://esskay.ae/">
+
+  <!-- Structured Data: LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Esskay General Trading LLC",
+    "description": "B2B shelf-stable food supplier in Dubai, UAE. Supplying hotels, distributors, and food manufacturers.",
+    "address": { "@type": "PostalAddress", "addressLocality": "Dubai", "addressCountry": "AE" },
+    "url": "https://esskay.ae",
+    "telephone": "+971500000000",
+    "email": "hello@esskay.ae",
+    "areaServed": "UAE"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    /* ── Reset & Base ──────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --gold:        #C8920A;
+      --gold-light:  #E0AA30;
+      --gold-pale:   #F0C84A;
+      --gold-mid:    #A08040;
+      --brown:       #2A2015;
+      --brown-soft:  #4A3820;
+      --warm-white:  #FFFBF0;
+      --off-white:   #FAF7F2;
+      --cream:       #F3EDD8;
+      --text-dark:   #1C1410;
+      --text-mid:    #5A4A35;
+      --text-muted:  #8A7A65;
+      --border:      rgba(200,146,10,0.18);
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-body:    'DM Sans', sans-serif;
+      --nav-h:        72px;
+      --max-w:        1200px;
+      --radius:       4px;
+      --transition:   0.3s cubic-bezier(0.4,0,0.2,1);
+    }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body {
+      font-family: var(--font-body);
+      background: var(--warm-white);
+      color: var(--text-dark);
+      line-height: 1.7;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+    img { max-width: 100%; height: auto; display: block; }
+    a { text-decoration: none; color: inherit; }
+    ul { list-style: none; }
+
+    /* ── Utility ───────────────────────────────────── */
+    .container { max-width: var(--max-w); margin: 0 auto; padding: 0 1.5rem; }
+    .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
+    .gold { color: var(--gold); }
+    .text-center { text-align: center; }
+
+    /* ── Star SVG Inline ───────────────────────────── */
+    .star-mark { display: inline-block; vertical-align: middle; }
+
+    /* ── Navigation ────────────────────────────────── */
+    .nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      height: var(--nav-h);
+      background: rgba(255,251,240,0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      transition: box-shadow var(--transition);
+    }
+    .nav.scrolled { box-shadow: 0 2px 24px rgba(42,32,21,0.08); }
+    .nav__inner {
+      height: 100%; display: flex; align-items: center;
+      justify-content: space-between; gap: 2rem;
+    }
+    .nav__logo {
+      display: flex; align-items: center; gap: 0.75rem;
+      font-family: var(--font-body); font-weight: 500;
+      letter-spacing: 0.12em; font-size: 1rem;
+      color: var(--brown);
+    }
+    .nav__logo-name { font-size: 1.05rem; letter-spacing: 0.18em; color: var(--brown); }
+    .nav__logo-tag { font-size: 0.55rem; letter-spacing: 0.2em; color: var(--gold-mid); display: block; margin-top: -2px; }
+    .nav__links {
+      display: flex; align-items: center; gap: 2rem;
+    }
+    .nav__links a {
+      font-size: 0.85rem; letter-spacing: 0.06em;
+      color: var(--text-mid); font-weight: 400;
+      transition: color var(--transition);
+      padding: 0.25rem 0;
+      position: relative;
+    }
+    .nav__links a::after {
+      content: ''; position: absolute; bottom: 0; left: 0; right: 0;
+      height: 1px; background: var(--gold);
+      transform: scaleX(0); transition: transform var(--transition);
+    }
+    .nav__links a:hover { color: var(--gold); }
+    .nav__links a:hover::after { transform: scaleX(1); }
+    .nav__cta {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.55rem 1.4rem;
+      background: var(--brown);
+      color: var(--gold-pale) !important;
+      font-size: 0.8rem; font-weight: 500; letter-spacing: 0.08em;
+      border-radius: var(--radius);
+      transition: background var(--transition), color var(--transition);
+      min-height: 48px;
+    }
+    .nav__cta:hover { background: var(--gold); color: var(--brown) !important; }
+    .nav__cta::after { display: none !important; }
+
+    /* Hamburger */
+    .nav__hamburger {
+      display: none; flex-direction: column; gap: 5px;
+      background: none; border: none; cursor: pointer; padding: 8px;
+      min-width: 48px; min-height: 48px; align-items: center; justify-content: center;
+    }
+    .nav__hamburger span {
+      display: block; width: 22px; height: 1.5px;
+      background: var(--brown); transition: var(--transition);
+    }
+    .nav__mobile {
+      display: none; position: fixed; inset: 0; top: var(--nav-h);
+      background: var(--warm-white); z-index: 99;
+      flex-direction: column; padding: 2rem 1.5rem; gap: 1.5rem;
+    }
+    .nav__mobile.open { display: flex; }
+    .nav__mobile a {
+      font-size: 1.2rem; color: var(--text-dark); font-weight: 400;
+      padding: 0.75rem 0; border-bottom: 1px solid var(--border);
+    }
+    .nav__mobile .nav__cta { border-bottom: none; margin-top: 0.5rem; justify-content: center; }
+
+    /* ── Hero ──────────────────────────────────────── */
+    .hero {
+      min-height: 100svh;
+      padding-top: var(--nav-h);
+      display: flex; align-items: center;
+      position: relative; overflow: hidden;
+      background: var(--warm-white);
+    }
+    .hero__bg-pattern {
+      position: absolute; inset: 0; pointer-events: none; opacity: 0.04;
+      background-image: radial-gradient(circle, var(--gold) 1px, transparent 1px);
+      background-size: 40px 40px;
+    }
+    .hero__gold-bar {
+      position: absolute; right: 0; top: 0; bottom: 0;
+      width: 42%; background: linear-gradient(135deg, #FAF5E4 0%, #F0E4BC 100%);
+      clip-path: polygon(8% 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    .hero__inner {
+      position: relative; z-index: 2;
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 4rem; align-items: center;
+      min-height: calc(100svh - var(--nav-h));
+      padding: 4rem 0;
+    }
+    .hero__eyebrow {
+      display: inline-flex; align-items: center; gap: 0.75rem;
+      font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--gold); font-weight: 500; margin-bottom: 1.5rem;
+    }
+    .hero__eyebrow::before {
+      content: ''; display: block; width: 28px; height: 1px; background: var(--gold);
+    }
+    .hero h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2.6rem, 5vw, 4.2rem);
+      font-weight: 600; line-height: 1.12;
+      color: var(--brown); letter-spacing: -0.01em;
+      margin-bottom: 1.5rem;
+    }
+    .hero h1 em { font-style: italic; color: var(--gold); }
+    .hero__sub {
+      font-size: 1rem; color: var(--text-mid); line-height: 1.8;
+      max-width: 420px; margin-bottom: 2.5rem; font-weight: 300;
+    }
+    .hero__ctas { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.9rem 2rem; min-height: 52px;
+      background: var(--brown); color: var(--gold-pale);
+      font-size: 0.85rem; font-weight: 500; letter-spacing: 0.06em;
+      border-radius: var(--radius);
+      transition: background var(--transition), transform 0.15s;
+      border: none; cursor: pointer;
+    }
+    .btn-primary:hover { background: var(--gold); color: var(--brown); transform: translateY(-1px); }
+    .btn-secondary {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.9rem 2rem; min-height: 52px;
+      background: transparent;
+      border: 1px solid var(--border-gold, rgba(200,146,10,0.4));
+      color: var(--brown);
+      font-size: 0.85rem; font-weight: 400; letter-spacing: 0.06em;
+      border-radius: var(--radius);
+      transition: all var(--transition);
+    }
+    .btn-secondary:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-1px); }
+    .hero__stats {
+      display: flex; gap: 2.5rem; margin-top: 3.5rem;
+      padding-top: 2rem; border-top: 1px solid var(--border);
+    }
+    .hero__stat-num {
+      font-family: var(--font-display); font-size: 2rem;
+      font-weight: 600; color: var(--gold); line-height: 1;
+    }
+    .hero__stat-label {
+      font-size: 0.72rem; letter-spacing: 0.08em; color: var(--text-muted);
+      margin-top: 0.3rem; text-transform: uppercase;
+    }
+
+    /* Hero right — star graphic */
+    .hero__visual {
+      display: flex; align-items: center; justify-content: center;
+      position: relative;
+    }
+    .hero__star-wrap {
+      position: relative; display: flex; align-items: center; justify-content: center;
+    }
+    .hero__star-wrap svg { width: clamp(220px, 30vw, 380px); height: auto; }
+    .hero__star-tagline {
+      position: absolute; bottom: -2rem;
+      font-size: 0.68rem; letter-spacing: 0.22em;
+      text-transform: uppercase; color: var(--text-muted);
+      white-space: nowrap;
+    }
+
+    /* ── Trust bar ─────────────────────────────────── */
+    .trust {
+      background: var(--cream);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 1.1rem 0;
+      overflow: hidden;
+    }
+    .trust__inner {
+      display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;
+    }
+    .trust__label {
+      font-size: 0.7rem; letter-spacing: 0.16em; text-transform: uppercase;
+      color: var(--text-muted); white-space: nowrap; flex-shrink: 0;
+    }
+    .trust__chips { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .trust__chip {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      font-size: 0.78rem; color: var(--brown-soft); padding: 0.3rem 0.8rem;
+      border: 1px solid var(--border); border-radius: 20px;
+      background: rgba(255,251,240,0.8); letter-spacing: 0.02em;
+    }
+    .trust__chip::before { content: ''; width: 5px; height: 5px; border-radius: 50%; background: var(--gold); flex-shrink: 0; }
+
+    /* ── Section common ────────────────────────────── */
+    .section { padding: 6rem 0; }
+    .section--alt { background: var(--off-white); }
+    .section--dark { background: var(--brown); }
+    .section__eyebrow {
+      font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--gold); font-weight: 500; margin-bottom: 0.75rem;
+      display: flex; align-items: center; gap: 0.6rem;
+    }
+    .section__eyebrow::before { content: ''; display: block; width: 20px; height: 1px; background: var(--gold); }
+    .section__title {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      font-weight: 600; line-height: 1.15;
+      color: var(--brown); letter-spacing: -0.01em;
+    }
+    .section--dark .section__title { color: var(--gold-pale); }
+    .section__sub {
+      font-size: 1rem; color: var(--text-mid);
+      line-height: 1.8; margin-top: 1rem; font-weight: 300;
+    }
+    .section--dark .section__sub { color: rgba(240,200,74,0.55); }
+    .section__header { max-width: 560px; margin-bottom: 3.5rem; }
+
+    /* ── Products ──────────────────────────────────── */
+    .products__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5px; background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: 8px; overflow: hidden;
+    }
+    .product-card {
+      background: var(--warm-white); padding: 2.5rem;
+      display: flex; flex-direction: column;
+      transition: background var(--transition);
+      position: relative; overflow: hidden;
+    }
+    .product-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0;
+      height: 2px; background: var(--gold);
+      transform: scaleX(0); transform-origin: left;
+      transition: transform var(--transition);
+    }
+    .product-card:hover { background: var(--cream); }
+    .product-card:hover::before { transform: scaleX(1); }
+    .product-card__icon {
+      width: 48px; height: 48px; margin-bottom: 1.5rem;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .product-card__icon svg { width: 36px; height: 36px; }
+    .product-card h2 {
+      font-family: var(--font-display); font-size: 1.5rem;
+      font-weight: 600; color: var(--brown); margin-bottom: 0.75rem;
+      line-height: 1.2;
+    }
+    .product-card p {
+      font-size: 0.88rem; color: var(--text-mid);
+      line-height: 1.8; flex: 1; font-weight: 300;
+    }
+    .product-card__meta {
+      margin-top: 1.5rem; padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+      display: flex; flex-direction: column; gap: 0.4rem;
+    }
+    .product-card__meta-row {
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 0.75rem;
+    }
+    .product-card__meta-label { color: var(--text-muted); letter-spacing: 0.04em; }
+    .product-card__meta-val { color: var(--brown-soft); font-weight: 500; }
+    .product-card__cta {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      font-size: 0.8rem; color: var(--gold); font-weight: 500;
+      letter-spacing: 0.06em; margin-top: 1.5rem;
+      transition: gap var(--transition);
+    }
+    .product-card:hover .product-card__cta { gap: 0.7rem; }
+
+    /* ── Why ───────────────────────────────────────── */
+    .why__grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 2rem;
+    }
+    .why-item { display: flex; flex-direction: column; gap: 0.75rem; }
+    .why-item__num {
+      font-family: var(--font-display); font-size: 3rem;
+      font-weight: 400; color: var(--cream); line-height: 1;
+    }
+    .why-item h3 {
+      font-family: var(--font-display); font-size: 1.2rem;
+      font-weight: 600; color: var(--brown);
+    }
+    .why-item p { font-size: 0.88rem; color: var(--text-mid); line-height: 1.8; font-weight: 300; }
+
+    /* ── Process ───────────────────────────────────── */
+    .process__steps {
+      display: grid; grid-template-columns: repeat(4, 1fr);
+      gap: 0; position: relative;
+    }
+    .process__steps::before {
+      content: ''; position: absolute;
+      top: 28px; left: 10%; right: 10%; height: 1px;
+      background: var(--border); z-index: 0;
+    }
+    .process-step { padding: 0 1.5rem; text-align: center; position: relative; z-index: 1; }
+    .process-step__num {
+      width: 56px; height: 56px; border-radius: 50%;
+      background: var(--warm-white); border: 1.5px solid var(--gold);
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--font-display); font-size: 1.2rem; font-weight: 600;
+      color: var(--gold); margin: 0 auto 1.25rem;
+    }
+    .process-step h3 {
+      font-size: 0.9rem; font-weight: 500; color: var(--brown);
+      letter-spacing: 0.04em; margin-bottom: 0.5rem;
+    }
+    .process-step p { font-size: 0.8rem; color: var(--text-muted); line-height: 1.6; }
+
+    /* ── Testimonial ───────────────────────────────── */
+    .testimonial {
+      background: var(--brown); border-radius: 8px;
+      padding: 3.5rem; position: relative; overflow: hidden;
+    }
+    .testimonial::before {
+      content: '\201C'; position: absolute; top: -0.5rem; left: 2rem;
+      font-family: var(--font-display); font-size: 10rem; line-height: 1;
+      color: rgba(200,146,10,0.12); pointer-events: none;
+    }
+    .testimonial__text {
+      font-family: var(--font-display); font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+      font-style: italic; color: rgba(240,200,74,0.9); line-height: 1.6;
+      position: relative; z-index: 1; margin-bottom: 1.5rem; max-width: 680px;
+    }
+    .testimonial__attr { font-size: 0.8rem; color: rgba(200,146,10,0.55); letter-spacing: 0.08em; }
+
+    /* ── Contact ───────────────────────────────────── */
+    .contact__grid {
+      display: grid; grid-template-columns: 1fr 1.2fr; gap: 5rem; align-items: start;
+    }
+    .contact__info h2 {
+      font-family: var(--font-display); font-size: 2.5rem;
+      font-weight: 600; color: var(--brown); margin-bottom: 1rem;
+    }
+    .contact__info p { font-size: 0.95rem; color: var(--text-mid); line-height: 1.8; font-weight: 300; }
+    .contact__details { margin-top: 2rem; display: flex; flex-direction: column; gap: 1rem; }
+    .contact__detail {
+      display: flex; align-items: center; gap: 0.75rem;
+      font-size: 0.88rem; color: var(--text-mid);
+    }
+    .contact__detail-icon {
+      width: 36px; height: 36px; border-radius: 50%;
+      background: var(--cream); border: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+    }
+    .contact__detail-icon svg { width: 16px; height: 16px; }
+
+    /* Form */
+    .form { display: flex; flex-direction: column; gap: 1.25rem; }
+    .form__row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+    .form__group { display: flex; flex-direction: column; gap: 0.4rem; }
+    .form__label { font-size: 0.75rem; letter-spacing: 0.08em; color: var(--text-muted); text-transform: uppercase; }
+    .form__input, .form__select, .form__textarea {
+      padding: 0.8rem 1rem; min-height: 48px;
+      background: var(--warm-white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      font-family: var(--font-body); font-size: 0.9rem;
+      color: var(--text-dark);
+      transition: border-color var(--transition);
+      outline: none;
+      -webkit-appearance: none;
+    }
+    .form__input:focus, .form__select:focus, .form__textarea:focus {
+      border-color: var(--gold);
+    }
+    .form__textarea { resize: vertical; min-height: 120px; }
+    .form__submit {
+      display: flex; align-items: center; justify-content: center; gap: 0.6rem;
+      padding: 1rem 2.5rem; min-height: 52px;
+      background: var(--brown); color: var(--gold-pale);
+      font-family: var(--font-body); font-size: 0.85rem;
+      font-weight: 500; letter-spacing: 0.08em;
+      border: none; border-radius: var(--radius); cursor: pointer;
+      transition: background var(--transition), transform 0.15s;
+    }
+    .form__submit:hover { background: var(--gold); color: var(--brown); transform: translateY(-1px); }
+
+    .wa-link {
+      display: flex; align-items: center; gap: 0.6rem;
+      font-size: 0.8rem; color: #25D366; margin-top: 0.75rem;
+      justify-content: center; padding: 0.6rem;
+      border: 1px solid rgba(37,211,102,0.3); border-radius: var(--radius);
+      transition: background var(--transition);
+    }
+    .wa-link:hover { background: rgba(37,211,102,0.06); }
+
+    /* ── Footer ────────────────────────────────────── */
+    .footer {
+      background: var(--brown); padding: 3rem 0 2rem;
+      border-top: 1px solid rgba(200,146,10,0.2);
+    }
+    .footer__inner {
+      display: grid; grid-template-columns: 1fr auto; align-items: center;
+      gap: 2rem; padding-bottom: 2rem;
+      border-bottom: 1px solid rgba(200,146,10,0.12);
+      flex-wrap: wrap;
+    }
+    .footer__brand { display: flex; align-items: center; gap: 0.75rem; }
+    .footer__brand-name { font-size: 0.9rem; letter-spacing: 0.16em; color: var(--gold-pale); font-weight: 500; }
+    .footer__brand-tag { font-size: 0.55rem; letter-spacing: 0.2em; color: rgba(240,200,74,0.4); display: block; }
+    .footer__links { display: flex; gap: 2rem; }
+    .footer__links a { font-size: 0.8rem; color: rgba(240,200,74,0.45); transition: color var(--transition); }
+    .footer__links a:hover { color: var(--gold-pale); }
+    .footer__bottom {
+      display: flex; justify-content: space-between; align-items: center;
+      flex-wrap: wrap; gap: 1rem; padding-top: 1.5rem;
+    }
+    .footer__copy { font-size: 0.72rem; color: rgba(200,146,10,0.35); }
+    .footer__tagline { font-size: 0.72rem; color: rgba(200,146,10,0.35); font-style: italic; font-family: var(--font-display); }
+
+    /* ── Animations ────────────────────────────────── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes starDraw {
+      from { stroke-dashoffset: 1; }
+      to   { stroke-dashoffset: 0; }
+    }
+    .fade-up { opacity: 0; animation: fadeUp 0.7s ease forwards; }
+    .fade-up:nth-child(1) { animation-delay: 0.1s; }
+    .fade-up:nth-child(2) { animation-delay: 0.22s; }
+    .fade-up:nth-child(3) { animation-delay: 0.34s; }
+    .fade-up:nth-child(4) { animation-delay: 0.46s; }
+
+    .hero__star-outer { stroke-dasharray: 1; stroke-dashoffset: 1; animation: starDraw 1.6s ease forwards 0.4s; }
+    .hero__star-inner { stroke-dasharray: 1; stroke-dashoffset: 1; animation: starDraw 1.8s ease forwards 0.7s; }
+
+    /* Scroll reveal */
+    .reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .reveal.visible { opacity: 1; transform: none; }
+
+    /* ── Responsive ────────────────────────────────── */
+    @media (max-width: 900px) {
+      .hero__inner { grid-template-columns: 1fr; gap: 3rem; text-align: center; padding: 3rem 0; }
+      .hero__eyebrow, .hero__ctas, .hero__stats { justify-content: center; }
+      .hero__sub { max-width: 100%; margin-left: auto; margin-right: auto; }
+      .hero__gold-bar { display: none; }
+      .hero__visual { display: none; }
+      .nav__links { display: none; }
+      .nav__hamburger { display: flex; }
+      .contact__grid { grid-template-columns: 1fr; gap: 3rem; }
+      .process__steps { grid-template-columns: 1fr 1fr; }
+      .process__steps::before { display: none; }
+    }
+    @media (max-width: 640px) {
+      :root { --nav-h: 60px; }
+      .section { padding: 4rem 0; }
+      .form__row { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 2.2rem; }
+      .hero__stats { flex-wrap: wrap; gap: 1.5rem; }
+      .process__steps { grid-template-columns: 1fr; }
+      .footer__inner { grid-template-columns: 1fr; text-align: center; }
+      .footer__links { flex-wrap: wrap; justify-content: center; }
+      .footer__bottom { flex-direction: column; text-align: center; }
+      .testimonial { padding: 2rem; }
+    }
+
+    /* ── Scroll indicator ──────────────────────────── */
+    .scroll-indicator {
+      position: absolute; bottom: 2rem; left: 50%;
+      transform: translateX(-50%);
+      display: flex; flex-direction: column; align-items: center; gap: 0.4rem;
+      font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--text-muted); animation: fadeUp 1s ease forwards 1.2s; opacity: 0;
+    }
+    .scroll-indicator__line {
+      width: 1px; height: 40px; background: linear-gradient(to bottom, var(--gold), transparent);
+      animation: scrollLine 1.5s ease-in-out infinite;
+    }
+    @keyframes scrollLine {
+      0%, 100% { transform: scaleY(1); transform-origin: top; }
+      50% { transform: scaleY(0.4); transform-origin: top; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── Navigation ──────────────────────────────── -->
+  <header>
+    <nav class="nav" role="navigation" aria-label="Main navigation" id="nav">
+      <div class="container">
+        <div class="nav__inner">
+          <a href="/" class="nav__logo" aria-label="Esskay General Trading LLC — Homepage">
+            <svg width="32" height="32" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+              <polygon points="50,8 58,33 85,33 63,50 71,75 50,58 29,75 37,50 15,33 42,33"
+                fill="none" stroke="#C8920A" stroke-width="4.5" stroke-linejoin="round"/>
+              <polygon points="50,20 56,39 75,39 60,50 66,69 50,58 34,69 40,50 25,39 44,39"
+                fill="none" stroke="#E0AA30" stroke-width="2" stroke-linejoin="round" opacity="0.65"/>
+            </svg>
+            <div>
+              <span class="nav__logo-name">ESSKAY</span>
+              <span class="nav__logo-tag">GENERAL TRADING LLC</span>
+            </div>
+          </a>
+          <ul class="nav__links" role="list">
+            <li><a href="#products">Products</a></li>
+            <li><a href="#why">Why Esskay</a></li>
+            <li><a href="#process">How it works</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact" class="nav__cta">Request a quote</a></li>
+          </ul>
+          <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false" id="hamburger">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <nav class="nav__mobile" id="mobileMenu" aria-label="Mobile navigation">
+      <a href="#products" class="mobile-link">Products</a>
+      <a href="#why" class="mobile-link">Why Esskay</a>
+      <a href="#process" class="mobile-link">How it works</a>
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#contact" class="nav__cta mobile-link">Request a quote →</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ── Hero ──────────────────────────────────── -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero__bg-pattern" aria-hidden="true"></div>
+      <div class="hero__gold-bar" aria-hidden="true"></div>
+      <div class="container">
+        <div class="hero__inner">
+          <div>
+            <p class="hero__eyebrow fade-up" aria-label="UAE B2B Food Supply">UAE B2B Food Supply</p>
+            <h1 id="hero-heading" class="fade-up">
+              Shelf-stable food products built for <em>UAE businesses</em> that need to rely on supply.
+            </h1>
+            <p class="hero__sub fade-up">
+              We supply plant proteins, coconut products, and cooking bases to hotels, distributors, and food manufacturers — on spec, on time, every month.
+            </p>
+            <div class="hero__ctas fade-up">
+              <a href="#contact" class="btn-primary">Request a quote →</a>
+              <a href="#products" class="btn-secondary">View products</a>
+            </div>
+            <div class="hero__stats fade-up" aria-label="Key facts">
+              <div>
+                <div class="hero__stat-num">3+</div>
+                <div class="hero__stat-label">Product categories</div>
+              </div>
+              <div>
+                <div class="hero__stat-num">30–60d</div>
+                <div class="hero__stat-label">Credit terms</div>
+              </div>
+              <div>
+                <div class="hero__stat-num">UAE</div>
+                <div class="hero__stat-label">Coverage</div>
+              </div>
+            </div>
+          </div>
+          <div class="hero__visual" aria-hidden="true">
+            <div class="hero__star-wrap">
+              <svg viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polygon class="hero__star-outer"
+                  points="150,24 168,90 240,90 183,132 204,198 150,156 96,198 117,132 60,90 132,90"
+                  stroke="#C8920A" stroke-width="3.5" stroke-linejoin="round"
+                  pathLength="1"/>
+                <polygon class="hero__star-inner"
+                  points="150,56 164,99 208,99 174,123 187,166 150,143 113,166 126,123 92,99 136,99"
+                  stroke="#E0AA30" stroke-width="1.6" stroke-linejoin="round" opacity="0.6"
+                  pathLength="1"/>
+                <!-- decorative orbit ring -->
+                <circle cx="150" cy="150" r="128" stroke="#C8920A" stroke-width="0.5" opacity="0.15" stroke-dasharray="4 8"/>
+              </svg>
+              <p class="hero__star-tagline">DUBAI · UAE · EST. 2025</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="scroll-indicator__line"></div>
+      </div>
+    </section>
+
+    <!-- ── Trust bar ──────────────────────────────── -->
+    <div class="trust" role="complementary" aria-label="Client sectors">
+      <div class="container">
+        <div class="trust__inner">
+          <span class="trust__label">Supplied to</span>
+          <ul class="trust__chips" role="list">
+            <li class="trust__chip">Hotels &amp; Hospitality</li>
+            <li class="trust__chip">Contract Caterers</li>
+            <li class="trust__chip">Food Manufacturers</li>
+            <li class="trust__chip">Distributors</li>
+            <li class="trust__chip">Ship Chandlers</li>
+            <li class="trust__chip">QSRs &amp; Cafés</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Products ───────────────────────────────── -->
+    <section class="section" id="products" aria-labelledby="products-heading">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="section__eyebrow">What we supply</p>
+          <h2 id="products-heading" class="section__title">Institutional-grade products. Long shelf life. Consistent quality.</h2>
+          <p class="section__sub">Shelf-stable, non-perishable, and available in bulk B2B formats with flexible MOQs and 30–60 day payment terms.</p>
+        </header>
+        <div class="products__grid">
+
+          <article class="product-card reveal">
+            <div class="product-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 36 36" fill="none" stroke="#C8920A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <ellipse cx="18" cy="28" rx="10" ry="4" opacity="0.3" fill="#C8920A"/>
+                <path d="M18 4C14 4 10 8 10 14c0 7 5 12 8 14 3-2 8-7 8-14 0-6-4-10-8-10z"/>
+                <circle cx="18" cy="14" r="3"/>
+              </svg>
+            </div>
+            <h2>Plant-based proteins</h2>
+            <p>TVP, soy and pea protein in granules, chunks, and mince formats. Ideal for food manufacturers, caterers, and QSRs looking for a consistent, scalable plant protein input.</p>
+            <dl class="product-card__meta">
+              <div class="product-card__meta-row">
+                <dt class="product-card__meta-label">Formats</dt>
+                <dd class="product-card__meta-val">Granules · Chunks · Mince</dd>
+              </div>
+              <div class="product-card__meta-row">
+                <dt class="product-card__meta-label">Pack sizes</dt>
+                <dd class="product-card__meta-val">10kg, 25kg sacks</dd>
+              </div>
+              <div class="product-card__meta-row">
+                <dt class="product-card__meta-label">Shelf life</dt>
+                <dd class="product-card__meta-val">18–24 months</dd>
+              </div>
+              <div class="product-card__meta-row">
+                <dt class="product-card__meta-label">Origin</dt>
+                <dd class="product-card__meta-val">India (primary)</dd>
+              </div>
+            </dl>
+            <a href="#contact" class="product-card__cta" aria-label="Request specs for plant-based proteins">Request specs →</a>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 36 36" fill="none" stroke="#C8920A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="12" width="18" height="18" rx="2"/>
+                <path d="M13 12V9a5 5 0 0110 0v3"/>
+                <circle cx="18" cy="21" r="2.5"/>
+              </svg>
+            </div>
+            <h2>Cooking bases &amp; sauces</h2>
+            <p>Clean-label cooking bases with a 24+ month shelf life, supplied in institutional pails and bulk drums. Formulated for commercial kitchens, contract caterers, and food manufacturers.</p>
+            <dl class="product-card__meta">
+              <div class="product-card__meta-row">
+                <dt class="product-card__meta-label">Pack sizes</dt>
+                <dd class="product-card__meta-val">Institutional pails, bulk drums</dd>
+              </div>
+              <div class="product-card__meta-row">
+                <dt class="product-card__meta-label">Shelf life</dt>
+                <dd class="product-card__meta-val">24+ months</dd>
+              </div>
+              <div class="product-card__meta-row">
+                <dt class="product-card__meta-label">Label</dt>
+                <dd class="product-card__meta-val">Clean-label formulations</dd>
+              </div>
+              <div class="product-card__meta-row">
+                <dt class="product-card__meta-label">Specs</dt>
+                <dd class="product-card__meta-val">Available on request</dd>
+              </div>
+            </dl>
+            <a href="#contact" class="product-card__cta" aria-label="Request specs for cooking bases">Request specs →</a>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 36 36" fill="none" stroke="#C8920A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="18" cy="18" r="12"/>
+                <path d="M18 6c-2 4-5 6-5 12s3 8 5 12"/>
+                <path d="M18 6c2 4 5 6 5 12s-3 8-5 12"/>
+                <path d="M6 18h24"/>
+              </svg>
+            </div>
+            <h2>Coconut products</h2>
+            <p>Coconut milk in foodservice formats — cartons, cans, and bulk bags — supplied to hotels, caterers, and manufacturers. High repeat demand, consistent spec, long shelf life.</p>
+            <dl class="product-card__meta">
+              <div class="product-card__meta-row">
+                <dt class="product-card__meta-label">Key product</dt>
+                <dd class="product-card__meta-val">Coconut milk</dd>
+              </div>
+              <div class="product-card__meta-row">
+                <dt class="product-card__meta-label">Formats</dt>
+                <dd class="product-card__meta-val">Cartons · Cans · Bulk bags</dd>
+              </div>
+              <div class="product-card__meta-row">
+                <dt class="product-card__meta-label">Shelf life</dt>
+                <dd class="product-card__meta-val">12–24 months</dd>
+              </div>
+              <div class="product-card__meta-row">
+                <dt class="product-card__meta-label">Best for</dt>
+                <dd class="product-card__meta-val">Hotels · Catering · Manufacturing</dd>
+              </div>
+            </dl>
+            <a href="#contact" class="product-card__cta" aria-label="Request specs for coconut products">Request specs →</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Why Esskay ─────────────────────────────── -->
+    <section class="section section--alt" id="why" aria-labelledby="why-heading">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="section__eyebrow">Why buyers choose us</p>
+          <h2 id="why-heading" class="section__title">Built for institutional procurement. Not retail shelves.</h2>
+        </header>
+        <div class="why__grid">
+          <div class="why-item reveal">
+            <div class="why-item__num" aria-hidden="true">01</div>
+            <h3>Shelf-stable only</h3>
+            <p>No perishables. No cold chain complexity. Predictable ordering cycles, low spoilage risk, and easy warehouse management for your team.</p>
+          </div>
+          <div class="why-item reveal">
+            <div class="why-item__num" aria-hidden="true">02</div>
+            <h3>Contract supply</h3>
+            <p>Monthly recurring orders with stable pricing. We work on supply agreements, not one-off transactions — giving you confidence in your input costs.</p>
+          </div>
+          <div class="why-item reveal">
+            <div class="why-item__num" aria-hidden="true">03</div>
+            <h3>Flexible credit terms</h3>
+            <p>Net 30 to 60 day payment terms for qualified buyers. We understand how institutional procurement works and structure accordingly.</p>
+          </div>
+          <div class="why-item reveal">
+            <div class="why-item__num" aria-hidden="true">04</div>
+            <h3>Global sourcing</h3>
+            <p>India-first sourcing strategy with UAE-compliant specifications. Open to Vietnam, Malaysia, and Southeast Asia where quality and value demand it.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Process ────────────────────────────────── -->
+    <section class="section" id="process" aria-labelledby="process-heading">
+      <div class="container">
+        <header class="section__header text-center reveal" style="max-width:100%; margin-bottom:4rem;">
+          <p class="section__eyebrow" style="justify-content:center;">How it works</p>
+          <h2 id="process-heading" class="section__title">Simple supply, from day one.</h2>
+        </header>
+        <div class="process__steps">
+          <div class="process-step reveal">
+            <div class="process-step__num" aria-hidden="true">1</div>
+            <h3>Enquire</h3>
+            <p>Tell us what you need — product type, volume, frequency, and delivery location.</p>
+          </div>
+          <div class="process-step reveal">
+            <div class="process-step__num" aria-hidden="true">2</div>
+            <h3>Get a quote</h3>
+            <p>We respond within 24 hours with full specs, pricing, and payment terms.</p>
+          </div>
+          <div class="process-step reveal">
+            <div class="process-step__num" aria-hidden="true">3</div>
+            <h3>Pilot order</h3>
+            <p>Try a first order before committing to a supply contract. No lock-in pressure.</p>
+          </div>
+          <div class="process-step reveal">
+            <div class="process-step__num" aria-hidden="true">4</div>
+            <h3>Monthly supply</h3>
+            <p>Recurring, reliable delivery on agreed terms. You focus on your operation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Testimonial ────────────────────────────── -->
+    <section class="section section--alt" aria-label="Client testimonial">
+      <div class="container">
+        <div class="testimonial reveal">
+          <blockquote class="testimonial__text">
+            "We needed a consistent supplier for coconut milk in bulk. Esskay delivered on spec, on time, and made the credit process painless."
+          </blockquote>
+          <cite class="testimonial__attr">— Procurement Manager, UAE Hotel Group</cite>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── About ──────────────────────────────────── -->
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:5rem; align-items:center;" class="reveal">
+          <div>
+            <p class="section__eyebrow">About Esskay</p>
+            <h2 id="about-heading" class="section__title" style="font-size:2.2rem;">A focused, relationship-driven food trading company.</h2>
+            <p class="section__sub">
+              Esskay General Trading LLC is a Dubai-based B2B food trading company designed around one principle: reliable, scalable, non-perishable food inputs that are operationally simple for buyers.
+            </p>
+            <p class="section__sub" style="margin-top:0.75rem;">
+              We don't try to supply everything. We focus on high-repeat, shelf-stable categories where we can source well, price competitively, and deliver consistently — month after month.
+            </p>
+          </div>
+          <div style="background:var(--cream); border-radius:8px; padding:3rem; border:1px solid var(--border);">
+            <div style="display:flex; flex-direction:column; gap:1.5rem;">
+              <div style="display:flex; align-items:flex-start; gap:1rem;">
+                <div style="width:8px; height:8px; border-radius:50%; background:var(--gold); margin-top:0.4rem; flex-shrink:0;"></div>
+                <div>
+                  <div style="font-size:0.82rem; font-weight:500; color:var(--brown); margin-bottom:0.2rem;">Practical over flashy</div>
+                  <div style="font-size:0.8rem; color:var(--text-muted); line-height:1.6;">We speak in specs, timelines, and pricing — not marketing language.</div>
+                </div>
+              </div>
+              <div style="display:flex; align-items:flex-start; gap:1rem;">
+                <div style="width:8px; height:8px; border-radius:50%; background:var(--gold); margin-top:0.4rem; flex-shrink:0;"></div>
+                <div>
+                  <div style="font-size:0.82rem; font-weight:500; color:var(--brown); margin-bottom:0.2rem;">Reliable over trendy</div>
+                  <div style="font-size:0.8rem; color:var(--text-muted); line-height:1.6;">Buyers can depend on consistent quality and agreed delivery schedules.</div>
+                </div>
+              </div>
+              <div style="display:flex; align-items:flex-start; gap:1rem;">
+                <div style="width:8px; height:8px; border-radius:50%; background:var(--gold); margin-top:0.4rem; flex-shrink:0;"></div>
+                <div>
+                  <div style="font-size:0.82rem; font-weight:500; color:var(--brown); margin-bottom:0.2rem;">Relationship-first</div>
+                  <div style="font-size:0.8rem; color:var(--text-muted); line-height:1.6;">We build long-term supply partnerships — not transactional vendor relationships.</div>
+                </div>
+              </div>
+              <div style="display:flex; align-items:flex-start; gap:1rem;">
+                <div style="width:8px; height:8px; border-radius:50%; background:var(--gold); margin-top:0.4rem; flex-shrink:0;"></div>
+                <div>
+                  <div style="font-size:0.82rem; font-weight:500; color:var(--brown); margin-bottom:0.2rem;">Commercially sharp</div>
+                  <div style="font-size:0.8rem; color:var(--text-muted); line-height:1.6;">Competitive landed costs through focused sourcing and efficient logistics.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Contact ────────────────────────────────── -->
+    <section class="section section--alt" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact__grid">
+          <div class="reveal">
+            <p class="section__eyebrow">Get in touch</p>
+            <h2 id="contact-heading" class="contact__info" style="font-family:var(--font-display); font-size:2.5rem; font-weight:600; color:var(--brown);">Tell us what you need. We'll respond within 24 hours.</h2>
+            <p class="section__sub" style="margin-top:1rem;">Whether you're a hotel procurement manager, a distributor, or a food manufacturer — send us your requirement and we'll come back with specs, pricing, and availability.</p>
+            <div class="contact__details">
+              <div class="contact__detail">
+                <div class="contact__detail-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#C8920A" stroke-width="1.5" stroke-linecap="round">
+                    <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/>
+                  </svg>
+                </div>
+                <span>Dubai, United Arab Emirates</span>
+              </div>
+              <div class="contact__detail">
+                <div class="contact__detail-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#C8920A" stroke-width="1.5" stroke-linecap="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+                  </svg>
+                </div>
+                <a href="mailto:hello@esskay.ae" style="color:var(--gold);">hello@esskay.ae</a>
+              </div>
+              <div class="contact__detail">
+                <div class="contact__detail-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#C8920A" stroke-width="1.5" stroke-linecap="round">
+                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+                  </svg>
+                </div>
+                <a href="tel:+971500000000" style="color:var(--gold);">+971 50 000 0000</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="reveal">
+            <form class="form" action="#" method="POST" name="enquiry" aria-label="Enquiry form">
+              <div class="form__row">
+                <div class="form__group">
+                  <label class="form__label" for="name">Your name</label>
+                  <input class="form__input" type="text" id="name" name="name" placeholder="Ahmed Al Rashidi" required autocomplete="name">
+                </div>
+                <div class="form__group">
+                  <label class="form__label" for="company">Company</label>
+                  <input class="form__input" type="text" id="company" name="company" placeholder="Grand Hyatt Dubai" required autocomplete="organization">
+                </div>
+              </div>
+              <div class="form__row">
+                <div class="form__group">
+                  <label class="form__label" for="email">Email address</label>
+                  <input class="form__input" type="email" id="email" name="email" placeholder="procurement@company.com" required autocomplete="email">
+                </div>
+                <div class="form__group">
+                  <label class="form__label" for="phone">Phone / WhatsApp</label>
+                  <input class="form__input" type="tel" id="phone" name="phone" placeholder="+971 50 000 0000" autocomplete="tel">
+                </div>
+              </div>
+              <div class="form__group">
+                <label class="form__label" for="product">Product interest</label>
+                <select class="form__select" id="product" name="product">
+                  <option value="">Select a product category</option>
+                  <option value="plant-proteins">Plant-based proteins (TVP, soy, pea)</option>
+                  <option value="cooking-bases">Cooking bases &amp; sauces</option>
+                  <option value="coconut">Coconut products</option>
+                  <option value="multiple">Multiple categories</option>
+                </select>
+              </div>
+              <div class="form__group">
+                <label class="form__label" for="message">Your requirement</label>
+                <textarea class="form__textarea" id="message" name="message" placeholder="Volume, delivery frequency, location, spec requirements..."></textarea>
+              </div>
+              <button type="submit" class="form__submit">Submit enquiry →</button>
+              <a href="https://wa.me/971500000000" class="wa-link" rel="noopener noreferrer" target="_blank" aria-label="Chat on WhatsApp">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#25D366" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Prefer WhatsApp? Chat directly →
+              </a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ─────────────────────────────────── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <svg width="28" height="28" viewBox="0 0 100 100" aria-hidden="true">
+            <polygon points="50,8 58,33 85,33 63,50 71,75 50,58 29,75 37,50 15,33 42,33"
+              fill="none" stroke="#F0C84A" stroke-width="4.5" stroke-linejoin="round"/>
+            <polygon points="50,20 56,39 75,39 60,50 66,69 50,58 34,69 40,50 25,39 44,39"
+              fill="none" stroke="#E0AA30" stroke-width="2" stroke-linejoin="round" opacity="0.55"/>
+          </svg>
+          <div>
+            <span class="footer__brand-name">ESSKAY</span>
+            <span class="footer__brand-tag">GENERAL TRADING LLC</span>
+          </div>
+        </div>
+        <nav class="footer__links" aria-label="Footer navigation">
+          <a href="#products">Products</a>
+          <a href="#why">Why Esskay</a>
+          <a href="#process">How it works</a>
+          <a href="#contact">Contact</a>
+          <a href="mailto:hello@esskay.ae">Email us</a>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2025 Esskay General Trading LLC, Dubai, UAE. All rights reserved.</p>
+        <p class="footer__tagline">Reliable supply. Every month.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ── Nav scroll shadow ───────────────────────────
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+
+    // ── Mobile menu ─────────────────────────────────
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    let menuOpen = false;
+    hamburger.addEventListener('click', () => {
+      menuOpen = !menuOpen;
+      hamburger.setAttribute('aria-expanded', menuOpen);
+      mobileMenu.classList.toggle('open', menuOpen);
+    });
+    document.querySelectorAll('.mobile-link').forEach(link => {
+      link.addEventListener('click', () => {
+        menuOpen = false;
+        hamburger.setAttribute('aria-expanded', false);
+        mobileMenu.classList.remove('open');
+      });
+    });
+
+    // ── Scroll reveal ───────────────────────────────
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          entry.target.style.transitionDelay = (i % 4) * 0.1 + 's';
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    reveals.forEach(el => observer.observe(el));
+
+    // ── About section responsive ────────────────────
+    function fixAboutGrid() {
+      const aboutGrid = document.querySelector('#about .container > div');
+      if (!aboutGrid) return;
+      if (window.innerWidth < 768) {
+        aboutGrid.style.gridTemplateColumns = '1fr';
+        aboutGrid.style.gap = '2rem';
+      } else {
+        aboutGrid.style.gridTemplateColumns = '1fr 1fr';
+        aboutGrid.style.gap = '5rem';
+      }
+    }
+    fixAboutGrid();
+    window.addEventListener('resize', fixAboutGrid, { passive: true });
+  </script>
+
+</body>
+</html>
